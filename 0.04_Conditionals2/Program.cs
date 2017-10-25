@@ -13,12 +13,12 @@ namespace _0._04_Conditionals2
             Console.WriteLine("How much is in bank account?");
             string bankAccount = Console.ReadLine();
             int amount = Convert.ToInt32(bankAccount);
-            if (amount > 10000)
+            if (amount > 1000)
             {
                 Console.WriteLine("Yay!");
             }
 
-            else if (amount <= 10000)
+            else if (amount <= 1000)
             {
                 Console.WriteLine("Sorry");
             }
@@ -26,6 +26,7 @@ namespace _0._04_Conditionals2
             {
                 Console.WriteLine("Sorry, we don't understand. Come back later.");
             }
+            Console.ReadLine();
 
         }
     }
