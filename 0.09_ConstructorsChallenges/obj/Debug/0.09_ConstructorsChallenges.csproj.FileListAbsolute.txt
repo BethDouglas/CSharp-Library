@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\bin\Debug\0.09_ConstructorsChallenges.exe.config
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\bin\Debug\0.09_ConstructorsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\bin\Debug\0.09_ConstructorsChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\obj\Debug\0.09_ConstructorsChallenges.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\obj\Debug\0.09_ConstructorsChallenges.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\obj\Debug\0.09_ConstructorsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.09_ConstructorsChallenges\obj\Debug\0.09_ConstructorsChallenges.pdb
