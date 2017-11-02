@@ -15,9 +15,33 @@ namespace _0._16_Quiz1
             Triangle newTriangle3 = new Triangle(20, 5);
             Triangle newTriangle4 = new Triangle(2, 3);
             Triangle newTriangle5 = new Triangle(8, 2);
-            Console.WriteLine($"AREA = {newTriangle1.Area()}");
 
-            Console.ReadLine();
+            newTriangle1.Area();
+            newTriangle2.Area();
+            newTriangle3.Area();
+            newTriangle4.Area();
+            newTriangle5.Area();
+
+
+            IEnumerable<Triangle> traingleAreas = new List<Triangle>()
+            {
+                new Triangle {tbase, tHeight, tArea},  or {newTriangle1.Area()}, or {this.TBase, this.THeight, this.Area}, ???????????????
+                new Triangle {newTriangle2.Area()},
+                new Triangle {newTriangle3.Area()},
+                new Triangle {newTriangle4.Area()},
+                new Triangle {newTriangle5.Area()},
+
+            };
+
+            IEnumerable<Triangle> query = from t in triangleAreas
+                                             where t.Area > 4
+                                             orderby t.Area ascending
+                                             select t;
+            //Loop through
+            foreach (Triangle triangle in query)
+            {
+                Console.WriteLine(triangle.Area);
+            }
 
 
         }

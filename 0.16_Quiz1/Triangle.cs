@@ -18,11 +18,13 @@ namespace _0._16_Quiz1
         //Properties
         public int TBase { get; set; }
         public int THeight { get; set; }
+        public double TArea { get; set; }
 
         //Methods
         public override double Area()
         {
-            return ((TBase * THeight)/2);
+            this.TArea = this.TBase * this.THeight / 2.0;
+            return this.TArea;
         }
     }
 }
