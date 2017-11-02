@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\bin\Debug\0.16_Quiz1.exe.config
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\bin\Debug\0.16_Quiz1.exe
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\bin\Debug\0.16_Quiz1.pdb
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\obj\Debug\0.16_Quiz1.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\obj\Debug\0.16_Quiz1.exe
+C:\DotNetProjects\CSharpLibrary\0.16_Quiz1\obj\Debug\0.16_Quiz1.pdb

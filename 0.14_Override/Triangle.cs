@@ -9,7 +9,7 @@ namespace _0._14_Override
     class Triangle : Shape
     {
         //Constructor
-        public Triangle(int length)
+        public Triangle(int side1, int side2, int side3)
         {
             this.Side1 = side1;
             this.Side2 = side2;
