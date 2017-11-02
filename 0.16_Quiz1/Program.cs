@@ -23,24 +23,24 @@ namespace _0._16_Quiz1
             newTriangle5.Area();
 
 
-            IEnumerable<Triangle> traingleAreas = new List<Triangle>()
+            IEnumerable<Triangle> triangles = new List<Triangle>()
             {
-                new Triangle {tbase, tHeight, tArea},  or {newTriangle1.Area()}, or {this.TBase, this.THeight, this.Area}, ???????????????
-                new Triangle {newTriangle2.Area()},
-                new Triangle {newTriangle3.Area()},
-                new Triangle {newTriangle4.Area()},
-                new Triangle {newTriangle5.Area()},
+            newTriangle1,
+            newTriangle2,
+            newTriangle3,
+            newTriangle4,
+            newTriangle5,
 
-            };
+        };
 
-            IEnumerable<Triangle> query = from t in triangleAreas
-                                             where t.Area > 4
-                                             orderby t.Area ascending
+            IEnumerable<Triangle> query = from t in triangles
+                                             where t.TArea > 4
+                                             orderby t.TArea ascending
                                              select t;
             //Loop through
             foreach (Triangle triangle in query)
             {
-                Console.WriteLine(triangle.Area);
+                Console.WriteLine(triangle.TArea);
             }
 
 
