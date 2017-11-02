@@ -16,7 +16,7 @@ namespace _0._02_BasicTypes
 
             float myFloat = 3.14f;
 
-            double myDouble = 2.54;
+            double myDouble = 2.54; //or 4D to treat int as double
 
             decimal myDecimal = 3.14159m;
 
@@ -30,15 +30,19 @@ namespace _0._02_BasicTypes
             // <type> <variableName> = <optional initializer>;
             int age;
             string country;
+
             //Initialization
             age = 22;
             Console.WriteLine(age);       
             age = 24;
             Console.WriteLine(age);
+            country = "Canada";
+            Console.WriteLine(country);
+
+            //Declare and Initialize?
+            char myChar = 'D';
+            Console.WriteLine(myChar);
             Console.ReadLine();
-
-
-
         }
     }
 }
