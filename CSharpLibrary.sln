@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_LINQ", "0.15_LINQ\0.15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.16_Quiz1", "0.16_Quiz1\0.16_Quiz1.csproj", "{3B4A9878-F224-4D1C-89F9-BC571855A6AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.17_Interfaces", "0.17_Interfaces\0.17_Interfaces.csproj", "{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{3B4A9878-F224-4D1C-89F9-BC571855A6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B4A9878-F224-4D1C-89F9-BC571855A6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B4A9878-F224-4D1C-89F9-BC571855A6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
