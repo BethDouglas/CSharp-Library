@@ -1,0 +1,2 @@
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csproj.CoreCompileInputs.cache

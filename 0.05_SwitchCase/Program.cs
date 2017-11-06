@@ -10,7 +10,7 @@ namespace _0._05_SwitchCase
     {
         static void Main(string[] args)
         {
-            string friend = "Jay";
+            string friend = "Person";
 
             switch (friend)
             {

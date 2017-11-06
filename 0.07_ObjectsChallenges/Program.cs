@@ -28,16 +28,12 @@ namespace _0._07_ObjectsChallenges
             show3.Rating = 1;
 
             Console.WriteLine(show1);
-            Console.ReadLine();
-
-            //Silver
-
-
+            Console.ReadLine();            
         }
-
+        //Silver
         private static void GetSuggestion()
         {
-            for (int Rating >= 4);
+            for (int Rating > 4);
             {
                 if (true)
                 {

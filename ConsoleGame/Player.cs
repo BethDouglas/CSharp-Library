@@ -4,22 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0._011_OOPGameBuildAlong
+namespace ConsoleGame
 {
     class Player : Character
     {
-        //Constructors//
+        // NewConstructors//
         public Player(string name, Specialization role)
         {
             this.Name = name;
             this.Role = role;
             this.IsAlive = true;
             this.Health = 100;
-            this.Level = 1;
             this.AttackPower = 10;
             this.CritChance = 0.10;
         }
-        
+
         //Properties//
         public Specialization Role { get; set; }
 

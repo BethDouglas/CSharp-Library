@@ -11,21 +11,22 @@ namespace _0._04_Conditionals
         static void Main(string[] args)
         {
             Console.Write("How are you feeling from 1-5?");
-            string feelingNumber = Console.ReadLine();
-            if (feelingNumber < 3)
+            int feelingNumber = Int32.Parse(Console.ReadLine());
+            if (feelingNumber <3)
             {
-                Console.WriteLine("Sorry.");
+             Console.WriteLine("Sorry.");
             }
             else if (feelingNumber == 3)
             {
-                Console.WriteLine("OK.");
-            }            }
+            Console.WriteLine("OK.");
+            }
             else if (feelingNumber > 3)
             {
-                Console.WriteLine("Yay.");
+            Console.WriteLine("Yay.");
+            }
             else
             {
-                Console.WriteLine("Sorry, we don't understand");
+            Console.WriteLine("Sorry, we don't understand");
             }
         }
     }
