@@ -16,20 +16,19 @@ namespace _0._011_OOPGameBuildAlong
             SpeechSynthesizer synth = new SpeechSynthesizer();
 
             //Prompt for Player Information
-            Console.WriteLine("Hello, wanderer...\n" + 
-                               "What be thy name?");
+            Console.WriteLine("Hello, person...\n" + 
+                               "What's your name?");
             string inputName = Console.ReadLine();
 
             Console.Clear();
             Console.WriteLine($"Nice to meet you, {inputName}.");
             Thread.Sleep(1000);
-            Console.WriteLine("\nWhat's your specialization friend?\n" +
-                "0: Horse Mange\n" +
-                "1: Troll Cat\n" +
-                "2: Knight Templator\n" +
-                "3: Demogorg\n" +
-                "4: Vampire\n" +
-                "5: Bovine Frog");
+            Console.WriteLine("\nWhat's your busniess?\n" +
+                "1: Business 1\n" +
+                "2: Business 2\n" +
+                "3: Business 3\n" +
+                "4: Business 4\n" +
+                "5: Not your's, Inc.\n");
             //Get Value User Provided
             int inputSpec = Int32.Parse(Console.ReadLine());
 
@@ -37,14 +36,14 @@ namespace _0._011_OOPGameBuildAlong
             //int to Specialization enum type
             Player.Specialization inputSpecialization = (Player.Specialization)inputSpec;
 
-            Console.WriteLine($"Ahh... a {inputSpecialization}, an interesting choice.");
+            Console.WriteLine($"Ah ha {inputSpecialization}, an interesting choice.");
 
             //Create new Player Object
             Player newHero = new Player(inputName, inputSpecialization);
 
             Console.Clear();
 
-            Console.WriteLine($"Your journey begins here {newHero.Name}, the {newHero.Role}...");
+            Console.WriteLine($"Your adventure begins here {newHero.Name}, the {newHero.Role}...");
             Thread.Sleep(2000);
             Console.Clear();
 
@@ -56,7 +55,7 @@ namespace _0._011_OOPGameBuildAlong
             synth.Speak($"You're going down {newHero.Name}, the {newHero.Role}.");
             Thread.Sleep(1000);
 
-            Enemy robot = new Enemy("Jay", newHero.Level);
+            Enemy robot = new Enemy("Bad Guy", newHero.Level);
             Console.WriteLine("BATTLE INSTANTIATED!");
             synth.Speak("BATTLE INSTANTIATED!");
 
@@ -70,8 +69,8 @@ namespace _0._011_OOPGameBuildAlong
                                   "         ACTIONS   \n" +
                                   "=======================");
                 Console.Write("0: Attack\n" +
-                              "1: Run\n" +
-                              "2: Hide\n");
+                              "1: Head Butt\n" +
+                              "2: Ear Box\n");
                 int inputAction = Int32.Parse(Console.ReadLine());
                 Player.Action heroAction = (Player.Action)inputAction;
 
@@ -99,22 +98,21 @@ namespace _0._011_OOPGameBuildAlong
                                           "=======================\n");
                         Thread.Sleep(1500);
                         break;
-                    case Player.Action.Run:
+                    case Player.Action.HeadButt:
                         Console.Clear();
-                        Console.WriteLine($"{newHero.Name} attempts to make a run for it!");
+                        Console.WriteLine($"{newHero.Name} head butts {robot.Name}");
                         Thread.Sleep(1500);
-                        synth.Speak("Where do you think you're going?!");
+                        synth.Speak("Ouch?!");
                         Console.Clear();
-                        Console.WriteLine($"{robot.Name} pulls {newHero.Name} back into the fight!");
+                        Console.WriteLine($"{robot.Name} falls down");
                         break;
-                    case Player.Action.Hide:
+                    case Player.Action.EarBox:
                         Console.Clear();
-                        Console.WriteLine($"{newHero.Name} attempts to hide...");
+                        Console.WriteLine($"{newHero.Name} attempts to box {robot.Name}'s ears");
                         Thread.Sleep(1500);
-                        synth.Speak($"You can't hide from me {newHero.Role}");
+                        synth.Speak($"That was mean, {newHero.Role}");
                         Console.Clear();
-                        Console.WriteLine($"{robot.Name} found {newHero.Name}!");
-                        break;
+                         break;
                     default:
                         Console.WriteLine("Enter 0, 1, or 2 to perform an action!");
                         synth.Speak("I know I make computers slow, but this is just ridiculous!");

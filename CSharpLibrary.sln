@@ -37,8 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_Constructors", "0.09_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_ConstructorsChallenges", "0.09_ConstructorsChallenges\0.09_ConstructorsChallenges.csproj", "{6B3125A7-1571-4533-9037-B1D61B999DAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.10_OOP_Game", "0.10_OOP_Game\0.10_OOP_Game.csproj", "{C86C73AE-DE4C-4907-AF8E-B94EEAB2CABA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.011_OOPGameBuildAlong", "0.011_OOPGameBuildAlong\0.011_OOPGameBuildAlong.csproj", "{19A278F8-75E8-4FB1-94C4-7B422C314332}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.12_MethodsOverloading", "0.12_MethodsOverloading\0.12_MethodsOverloading.csproj", "{1982DB6A-B08B-4754-8187-BEAD601EBB9A}"
@@ -54,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.17_Interfaces", "0.17_Interfaces\0.17_Interfaces.csproj", "{920A5129-6748-4A4D-ABE0-96A15A6EEBEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGame", "ConsoleGame\ConsoleGame.csproj", "{C8A372A3-07C6-4F16-B34E-1A39DEF21740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.02_StringsChallenges", "0.02_StringsChallenges\0.02_StringsChallenges.csproj", "{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,10 +129,6 @@ Global
 		{6B3125A7-1571-4533-9037-B1D61B999DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3125A7-1571-4533-9037-B1D61B999DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3125A7-1571-4533-9037-B1D61B999DAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C86C73AE-DE4C-4907-AF8E-B94EEAB2CABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C86C73AE-DE4C-4907-AF8E-B94EEAB2CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C86C73AE-DE4C-4907-AF8E-B94EEAB2CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C86C73AE-DE4C-4907-AF8E-B94EEAB2CABA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19A278F8-75E8-4FB1-94C4-7B422C314332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19A278F8-75E8-4FB1-94C4-7B422C314332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19A278F8-75E8-4FB1-94C4-7B422C314332}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -165,6 +161,10 @@ Global
 		{C8A372A3-07C6-4F16-B34E-1A39DEF21740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A372A3-07C6-4F16-B34E-1A39DEF21740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A372A3-07C6-4F16-B34E-1A39DEF21740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

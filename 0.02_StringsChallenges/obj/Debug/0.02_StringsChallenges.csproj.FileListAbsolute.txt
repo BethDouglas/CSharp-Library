@@ -1,0 +1,2 @@
+C:\DotNetProjects\CSharpLibrary\0.02_StringsChallenges\obj\Debug\0.02_StringsChallenges.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.02_StringsChallenges\obj\Debug\0.02_StringsChallenges.csproj.CoreCompileInputs.cache

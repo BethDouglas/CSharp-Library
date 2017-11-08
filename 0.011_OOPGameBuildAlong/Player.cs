@@ -26,19 +26,19 @@ namespace _0._011_OOPGameBuildAlong
         //Enums//
         public enum Specialization
         {
-            NA,
-            Business1,
-            Business2,
-            Business3,
-            Business4,
-            Business5
+            NA = 0,
+            Business1 = 1,
+            Business2 =2,
+            Business3 = 3,
+            Business4 = 4,
+            NotYoursInc = 5,
         }
 
         public enum Action
         {
-            Attack,
-            Run,
-            Hide
+            Attack = 0,
+            HeadButt = 1,
+            EarBox = 2,
         }
     }
 }
