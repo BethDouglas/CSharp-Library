@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGame", "ConsoleGame\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.02_StringsChallenges", "0.02_StringsChallenges\0.02_StringsChallenges.csproj", "{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.01_Methods", "1.01_Methods\1.01_Methods.csproj", "{7D8742BD-C54B-43C8-9513-189423C75098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3DA1658-C364-4C17-8CE6-6B96CFFCB9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8742BD-C54B-43C8-9513-189423C75098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8742BD-C54B-43C8-9513-189423C75098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8742BD-C54B-43C8-9513-189423C75098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8742BD-C54B-43C8-9513-189423C75098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
