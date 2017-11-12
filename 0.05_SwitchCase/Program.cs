@@ -10,14 +10,13 @@ namespace _0._05_SwitchCase
     {
         static void Main(string[] args)
         {
-            string friend = "Person";
+            Console.WriteLine("what's your name?");
+            string inputName = Console.ReadLine();
 
-            switch (friend)
+            switch (inputName)
             {
                 case "Jay":
                     Console.WriteLine("Hey Jay.");
-                    break;
-                    Console.WriteLine("I don't know you");
                     break;
                 case "Paul":
                     Console.WriteLine("Paul is pretty cool.");
@@ -25,7 +24,6 @@ namespace _0._05_SwitchCase
                 default:
                     Console.WriteLine("I don't know you");
                     break;
-
             }
             Console.ReadLine();
         }

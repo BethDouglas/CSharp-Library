@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\bin\Debug\1.03_Problem5.exe.config
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\bin\Debug\1.03_Problem5.exe
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\bin\Debug\1.03_Problem5.pdb
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\obj\Debug\1.03_Problem5.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\obj\Debug\1.03_Problem5.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\obj\Debug\1.03_Problem5.exe
+C:\DotNetProjects\CSharpLibrary\1.03_Problem5\obj\Debug\1.03_Problem5.pdb
