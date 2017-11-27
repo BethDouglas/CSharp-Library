@@ -25,7 +25,7 @@ namespace _0._06_ForLoops
             //Gold
             for (int i = 1; i <= 100; i++)
             {
-                if (i % 3 == 0 && i % 5 == 0)
+                if (i % 3 == 0 && i % 5 == 0) // if (i % 15 == 0)
                 {
                     Console.WriteLine("FizzBuzz");
                 }
@@ -44,6 +44,9 @@ namespace _0._06_ForLoops
                 }
 
             }
+
+
+
             Console.ReadLine();
         }
     }

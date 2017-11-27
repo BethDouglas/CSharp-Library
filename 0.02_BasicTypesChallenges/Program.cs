@@ -26,8 +26,8 @@ namespace _0._02_BasicTypesChallenges
             string myCentury = "19";
             int century = Convert.ToInt32(myCentury);
 
-            Console.WriteLine($"I was born in {myCentury}XX.");
-            Console.ReadLine();
+            Console.WriteLine($"I was born in {myCentury}XX.");             
+
         }
     }
 }
