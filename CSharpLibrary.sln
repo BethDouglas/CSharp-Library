@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLibrary", "CSharpLibrary\CSharpLibrary.csproj", "{41DA7173-BB84-445D-8990-20D2BABA3EDA}"
 EndProject
@@ -62,6 +62,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.03_Problem5", "1.03_Problem5\1.03_Problem5.csproj", "{F0EDD54B-09AC-44F1-8FA7-119C8FE78A64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.04_OverloadContructors", "1.04_OverloadContructors\1.04_OverloadContructors.csproj", "{CDCCD870-31DF-45E0-B9DE-B04616868209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenQuiz", "GoldenQuiz\GoldenQuiz.csproj", "{47E2F5A0-0483-4E66-909D-EA7A39689C1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{CDCCD870-31DF-45E0-B9DE-B04616868209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCCD870-31DF-45E0-B9DE-B04616868209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCCD870-31DF-45E0-B9DE-B04616868209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E2F5A0-0483-4E66-909D-EA7A39689C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E2F5A0-0483-4E66-909D-EA7A39689C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E2F5A0-0483-4E66-909D-EA7A39689C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E2F5A0-0483-4E66-909D-EA7A39689C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

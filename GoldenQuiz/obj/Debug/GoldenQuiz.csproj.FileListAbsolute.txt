@@ -1,0 +1,2 @@
+C:\DotNetProjects\CSharpLibrary\GoldenQuiz\obj\Debug\GoldenQuiz.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\GoldenQuiz\obj\Debug\GoldenQuiz.csproj.CoreCompileInputs.cache
