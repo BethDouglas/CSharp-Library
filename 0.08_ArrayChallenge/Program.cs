@@ -32,7 +32,6 @@ namespace _0._08_ArrayChallenge
             //}
             //Console.WriteLine(numbers3[i]);
 
-
             //Gold
             int[] randomNumbers = new int[10];
             Random rnd = new Random();

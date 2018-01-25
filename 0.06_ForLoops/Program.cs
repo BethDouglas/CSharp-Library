@@ -13,14 +13,12 @@ namespace _0._06_ForLoops
             //Bronze
             for (int i = 0; i <= 5; i++)
             {
-                Console.WriteLine(i);               
-            
+                Console.WriteLine(i);            
             }
             //Silver
             for (int i = 0; i <= 100; i += 5)
             {
                 Console.WriteLine(i);
-
             }
             //Gold
             for (int i = 1; i <= 100; i++)
@@ -42,11 +40,7 @@ namespace _0._06_ForLoops
                 {
                     Console.WriteLine(i);
                 }
-
             }
-
-
-
             Console.ReadLine();
         }
     }

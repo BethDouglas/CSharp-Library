@@ -10,7 +10,7 @@ namespace _0._05_SwitchCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("what's your name?");
+            Console.WriteLine("What's your name?");
             string inputName = Console.ReadLine();
 
             switch (inputName)

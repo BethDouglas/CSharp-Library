@@ -13,8 +13,6 @@ namespace _0._08_CollectionsDictionaries
             Dictionary<string, string> bestPicture = new Dictionary<string, string>();
             {
                 {"2000", "American Beauty"},
-
-
             }
         }
     }

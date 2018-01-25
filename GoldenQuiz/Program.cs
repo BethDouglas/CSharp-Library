@@ -12,7 +12,6 @@ namespace GoldenQuiz
     {
         static void Main(string[] args)
         {
-
             SpeechSynthesizer synth = new SpeechSynthesizer();
 
             Console.WriteLine("Hi!\n" +

@@ -11,8 +11,6 @@ namespace _0._01_Intro
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            
-
 
             string MyName(string firstName, string lastName)
             {

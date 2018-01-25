@@ -30,25 +30,5 @@ namespace _0._07_ObjectsChallenges
             Console.WriteLine(show1);
             Console.ReadLine();            
         }
-        //Silver
-        private static void GetSuggestion()
-        {
-            for (int Rating > 4);
-            {
-                if (true)
-                {
-                    Console.WriteLine("You should def watch this show.");
-
-                }
-                else
-                {
-                    Console.WriteLine("Don't watch this.");
-
-                }
-                Console.ReadLine();
-
-            }
-
-        }
     }
 }

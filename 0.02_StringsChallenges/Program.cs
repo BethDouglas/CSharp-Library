@@ -10,13 +10,9 @@ namespace _0._02_StringsChallenges
     {
         static void Main(string[] args)
         {
-            string potentialEmployer;
-            DateTime.Now ;
-
-
-            potentialEmployer = "Person";
-            occupation = "TV Personality";
-
+            string occupation = "TV Personality";
+            string firstName = "Beth";
+            string lastName = "D";
             string fullName = firstName + " " + lastName;
             Console.WriteLine(fullName);
 
@@ -26,7 +22,6 @@ namespace _0._02_StringsChallenges
             Console.WriteLine("Hello, my name is {0}. I am a {1}.", fullName, occupation);
 
             Console.WriteLine($"Hello, my name is {fullName}, I am a {occupation}.");
-
 
             Console.ReadLine();
         }

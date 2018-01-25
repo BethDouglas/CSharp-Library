@@ -10,7 +10,7 @@ namespace _0._04_Conditionals2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How much is in bank account?");
+            Console.WriteLine("How much is in your bank account?");
             string bankAccount = Console.ReadLine();
             int amount = Convert.ToInt32(bankAccount);
             if (amount > 1000)

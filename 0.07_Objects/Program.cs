@@ -23,9 +23,9 @@ namespace _0._07_Objects
             plainDonut.Type = "Plain";
             plainDonut.IsSpecial = false;
 
-            Console.WriteLine(jellyDonut);
+            Console.WriteLine(jellyDonut.Price);
             Console.WriteLine(jellyDonut.Filling);
-            Console.WriteLine(plainDonut);
+            Console.WriteLine(plainDonut.Price);
             Console.WriteLine(plainDonut.Filling);
             Console.ReadLine();
         }

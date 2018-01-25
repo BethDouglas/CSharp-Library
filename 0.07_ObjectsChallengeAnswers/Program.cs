@@ -30,7 +30,6 @@ namespace _0._07_ObjectsChallengeAnswers
 
 
             //Calling the methods (invoking, executing functions/methods)
-
             theOffice.GetSuggestion();
             strangerThings.GetSuggestion();
             theItCrowd.GetSuggestion();
